@@ -1,10 +1,6 @@
 Express & ES6 REST API Boilerplate
 ==================================
 
-[![bitHound Score](https://www.bithound.io/github/developit/express-es6-rest-api/badges/score.svg)](https://www.bithound.io/github/developit/express-es6-rest-api)
-
-This is a straightforward boilerplate for building REST APIs with ES6 and Express.
-
 - ES6 support via [babel](https://babeljs.io)
 - REST resources as middleware via [resource-router-middleware](https://github.com/developit/resource-router-middleware)
 - CORS support via [cors](https://github.com/troygoode/node-cors)
@@ -17,11 +13,8 @@ Getting Started
 
 ```sh
 # clone it
-git clone git@github.com:developit/express-es6-rest-api.git
-cd express-es6-rest-api
-
-# Make it your own
-rm -rf .git && git init && npm init
+git clone https://github.com/dantheuber/base-api.git
+cd base-api
 
 # Install dependencies
 npm install
@@ -50,10 +43,6 @@ docker run -p 8080:8080 es6/api-service
 #          machine port   
 
 ```
-
-Docker Demo
--------------------------
-It's supposed to be pretty easy to take your Docker to your favourite cloud service, here's a demo of what's our Dockerized bolierplate is like: [https://docker-deployment-yudfxfiaja.now.sh/api](https://docker-deployment-yudfxfiaja.now.sh/api)
 
 License
 -------

@@ -25,7 +25,6 @@ app.use(bodyParser.json({
 
 // connect to db
 initializeDb(config, db => {
-	console.log(db);
 	// internal middleware
 	app.use(middleware({ config, db }));
 

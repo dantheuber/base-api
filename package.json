@@ -26,9 +26,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/developit/express-es6-rest-api.git"
+    "url": "https://github.com/dantheuber/base-api.git"
   },
-  "author": "Jason Miller <jason@developit.ca>",
+  "author": "Daniel Essig<dan.essig@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.13.3",
@@ -47,7 +47,7 @@
     "nodemon": "^1.9.2"
   },
   "bugs": {
-    "url": "https://github.com/developit/express-es6-rest-api/issues"
+    "url": "https://github.com/dantheuber/base-api/issues"
   },
-  "homepage": "https://github.com/developit/express-es6-rest-api#readme"
+  "homepage": "https://github.com/dantheuber/base-api#readme"
 }

@@ -6,7 +6,7 @@ import bodyParser from 'body-parser';
 import initializeDb from './db';
 import middleware from './middleware';
 import api from './api';
-import config from './config.json';
+import config from '../config/';
 
 let app = express();
 app.server = http.createServer(app);
@@ -24,8 +24,7 @@ app.use(bodyParser.json({
 }));
 
 // connect to db
-initializeDb( db => {
-
+initializeDb(config, db => {
 	// internal middleware
 	app.use(middleware({ config, db }));
 
